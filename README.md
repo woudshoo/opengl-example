@@ -16,8 +16,9 @@ But besides that the code is very minimal, does not do any error checking etc.
 In order to let it run:
 
 1. Start CCL
-2. Type 
-   ```common-lisp
+2. Type
+
+   ```
    (require "COCOA")
    (ql:quicload "opengl-example") ;; or any other method to load this system
    (opengl-example:show-demo)
